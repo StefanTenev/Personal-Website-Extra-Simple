@@ -1,0 +1,68 @@
+html{
+    scroll-behavior: smooth;
+    
+}
+
+html::-webkit-scrollbar {
+  display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  html {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+.about-nav{
+    
+    top: 50%;
+    transform: translate(0,-50%);
+    left: 10vw;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    z-index: 3;
+    
+}
+.about-nav a{
+    text-decoration: none;
+    color: black;
+    padding: 0 0.4rem;
+    transition: all 0.2s;
+    box-shadow: 0 0 0.5rem 0.4rem white;    
+}
+.about-nav a:hover{
+    background-color: black;
+    
+    box-shadow: 0 0 0.5rem 0.4rem black;
+    
+    color: rgb(230,230,230);
+    
+}
+
+
+.about-section{
+    margin: 0 30vw;
+  
+
+}
+
+.about-section .about-content{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.about-section h3{
+    text-align: center;
+}
+
+.about-section .anchorRef{
+    display: block; 
+    position: relative; 
+    top: -7rem; 
+    visibility: hidden;
+    width: 1px;
+    height: 1px;
+}
+

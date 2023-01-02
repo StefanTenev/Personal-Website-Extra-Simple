@@ -1,0 +1,26 @@
+.Home{
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+img {
+    width: 30rem;
+    height:30rem;
+    object-fit: cover;
+    border-radius: 0.15rem;
+}
+
+.picture-change-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+button{
+    font-size: 120%;
+    padding: 0 0.1rem;
+}
